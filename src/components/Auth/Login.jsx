@@ -30,7 +30,7 @@ const Login = ({ handleLogin }) => {
           <h1 className="text-3xl font-bold text-gray-800">
             Employee Management System
           </h1>
-          <p className="text-gray-500 mt-2">Sign in to your account</p>
+          <p className="text-gray-500 mt-2">Login to your account</p>
         </div>
 
         {/* Form */}
@@ -47,7 +47,7 @@ const Login = ({ handleLogin }) => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className=" w-full max-w-95 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:outline-none transition"
-              placeholder="example@company.com"
+              placeholder="name123@gmail.com"
             />
           </div>
 

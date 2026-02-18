@@ -1,0 +1,54 @@
+@import "tailwindcss";
+ 
+
+
+ 
+
+body {
+  background-color: #111;
+}
+
+#TaskList::-webkit-scrollbar {
+  display: none;
+}
+
+input {
+  margin-top: 10px;
+  /* width: 500px; */
+  background-color: #9692929f;
+  color: #1f1d1d;
+  border-radius: xl;
+  padding: 10px;
+}
+
+#AllTask::-webkit-scrollbar {
+  display: none;
+}
+
+
+#Login {
+  background-image: url(https://www.slideteam.net/media/catalog/product/cache/1280x720/e/m/employee_management_system_powerpoint_ppt_template_bundles_slide01.jpg);
+  background-size: cover;
+}
+
+#Login button{
+  color: #111;
+  
+}
+
+#Login button:hover{
+font-weight: bold;  
+cursor: pointer;
+} 
+
+.manage{
+  border: 2px solid #22c55e8c;
+  transition: 0.3s;}
+ .manage:hover{
+  background-color: #308865;
+  cursor: pointer;
+  color: #f8eaea;
+  font-weight: bold;
+  }
+
+ 
